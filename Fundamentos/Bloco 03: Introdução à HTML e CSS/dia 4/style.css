@@ -1,0 +1,53 @@
+table{
+    display: table;
+    text-align: left;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border: 1px solid black;
+}
+
+table th, td, tr{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+p{
+    margin: auto;
+    text-align: justify;
+    width: 70%;
+}
+header{
+    padding: 10px;
+    background-color: yellow;
+    border: 3px solid brown;
+}
+main{
+    padding: 10px;
+    background-color: green;
+    border: 3px solid brown;
+}
+
+footer{
+    padding: 10px;
+    background-color: blueviolet;
+    border: 3px solid brown;
+}
+section{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: plum;
+    border: 3px solid brown;
+}
+
+aside{
+    text-align: center;
+    display: block;
+    background-color: cyan;
+    border: 3px solid brown;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
