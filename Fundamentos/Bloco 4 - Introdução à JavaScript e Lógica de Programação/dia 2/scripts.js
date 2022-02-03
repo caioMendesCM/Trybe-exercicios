@@ -35,40 +35,40 @@ if (mediaAritmetica > 20) {
 
 console.log("Exercício 5:\n");
 let maior = 0;
-for (let i = 0; i < numbers.length; i++){
-    if(numbers[i] > maior){
-        maior = numbers[i];
-    }
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] > maior) {
+    maior = numbers[i];
+  }
 }
 console.log(maior + "\n");
 
 console.log("Exercício 6:\n");
 let quantosImpares = 0;
-for (let i = 0; i < numbers.length; i++){
-    if(numbers[i]%2 != 0){
-        quantosImpares++;
-    }
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] % 2 != 0) {
+    quantosImpares++;
+  }
 }
 console.log(quantosImpares + "\n");
 
 console.log("Exercício 7:\n");
 let menor = maior;
-for (let i = 0; i < numbers.length; i++){
-    if(numbers[i] < menor){
-        menor = numbers[i];
-    }
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] < menor) {
+    menor = numbers[i];
+  }
 }
 console.log(menor + "\n");
 
 console.log("Exercício 8:\n");
 let numbers2 = [];
 
-for(let i = 0 ; i < 25 ; i++){
-    numbers2[i] = (i+1)
-    console.log(numbers2[i] + "\n");
+for (let i = 0; i < 25; i++) {
+  numbers2[i] = i + 1;
+  console.log(numbers2[i] + "\n");
 }
 
 console.log("Exercício 9:\n");
-for(let number of numbers2){
-    console.log((number/2) + "\n");
+for (let number of numbers2) {
+  console.log(number / 2 + "\n");
 }
