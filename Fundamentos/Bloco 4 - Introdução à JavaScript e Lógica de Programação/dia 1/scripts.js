@@ -238,4 +238,4 @@ function descontos_11a(a) {
   return descontoTotal;
 }
 
-console.log(salarioLiquido_11(3000));
+console.log(salarioLiquido_11(10000));
