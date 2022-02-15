@@ -60,67 +60,61 @@
       <p>Cor de fundo</p>
       <input
         type="color"
-        id="screenBackground"
+        id="background"
         name="background"
-        class="userPreferences"
+        class="userPreferences color"
       />
       <p>Cor do texto</p>
       <input
         type="color"
-        id="textBackground"
+        id="color"
         name="color"
-        class="userPreferences"
+        class="userPreferences color"
       />
       <p>Tamanho da fonte</p>
       <input
         type="number"
         id="fontSize"
         name="fontSize"
-        class="userPreferences"
+        class="userPreferences number"
       />
       <p>Espaçamento entre as linhas</p>
       <input
         type="number"
         id="lineHeight"
         name="lineHeight"
-        class="userPreferences"
+        class="userPreferences number"
       />
       <div class="container">
-
         <div class="select-box">
           <div class="options-container">
             <div class="option">
               <input
                 type="radio"
-                class="radio"
+                class="radio userPreferences font"
+                name="fontFamily"
                 id="monospace"
-                name="category"
               />
               <label for="monospace">monospace</label>
             </div>
             <div class="option">
-              <input type="radio" class="radio" id="serif" name="category" />
+              <input
+                type="radio"
+                class="radio userPreferences font"
+                name="fontFamily"
+                id="serif"
+              />
               <label for="serif">serif</label>
             </div>
             <div class="option">
               <input
                 type="radio"
-                class="radio"
+                class="radio userPreferences font"
+                name="fontFamily"
                 id="sans-serif"
-                name="category"
               />
               <label for="sans-serif">sans-serif</label>
             </div>
-            <div class="option">
-              <input
-                type="radio"
-                class="radio"
-                id="script"
-                name="category"
-              />
-              <label for="script">script</label>
-            </div>
-            
           </div>
 
           <div class="selected">selected</div>
