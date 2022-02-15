@@ -9,7 +9,7 @@
   </head>
   <body>
     <main>
-      <p>
+      <p id="text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam urna
         lectus, tempor a magna eu, tincidunt aliquet orci. Nullam accumsan
         tortor ante, at ornare est feugiat sed. Sed vulputate nisl odio, ac
@@ -57,13 +57,75 @@
         vitae nisi malesuada consectetur a et urna. Duis pretium rhoncus cursus.
         <br />
       </p>
+      <p>Cor de fundo</p>
+      <input
+        type="color"
+        id="screenBackground"
+        name="background"
+        class="userPreferences"
+      />
+      <p>Cor do texto</p>
+      <input
+        type="color"
+        id="textBackground"
+        name="color"
+        class="userPreferences"
+      />
+      <p>Tamanho da fonte</p>
+      <input
+        type="number"
+        id="fontSize"
+        name="fontSize"
+        class="userPreferences"
+      />
+      <p>Espaçamento entre as linhas</p>
+      <input
+        type="number"
+        id="lineHeight"
+        name="lineHeight"
+        class="userPreferences"
+      />
+      <div class="container">
 
-      <input type="color" id="screenBackground" class="userPreferences" />
-      <input type="color" id="textBackground" class="userPreferences" />
-      <input type="number" id="fontSize" class="userPreferences" />
-      <input type="number" id="lineHeight" class="userPreferences" />
-      <input type="text" id="fontFamily" class="userPreferences" />
+        <div class="select-box">
+          <div class="options-container">
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                id="monospace"
+                name="category"
+              />
+              <label for="monospace">monospace</label>
+            </div>
+            <div class="option">
+              <input type="radio" class="radio" id="serif" name="category" />
+              <label for="serif">serif</label>
+            </div>
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                id="sans-serif"
+                name="category"
+              />
+              <label for="sans-serif">sans-serif</label>
+            </div>
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                id="script"
+                name="category"
+              />
+              <label for="script">script</label>
+            </div>
+            
+          </div>
 
+          <div class="selected">selected</div>
+        </div>
+      </div>
     </main>
     <script src="script.js"></script>
   </body>
