@@ -47,15 +47,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4: _JavaScript - Web Storage_
 - [X] 5: _Fundamentos - JavaScript - Projetos_
 - [X] 5: _[Projeto - Arte com Pixels]()_
-- [ ] 6: _[Projeto - Lista de tarefas]()_
+- [x] 6: _[Projeto - Lista de tarefas]()_
 - [ ] 7: _[Projeto - Meme Generator]()_
 - [ ] 7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 7: _[Projeto - Carta Misteriosa]()_
 
 #### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
-- [ ] 1: _HTML & CSS - Forms_
-- [ ] 2: _Bibliotecas JavaScript e Frameworks CSS_
+- [x] 1: _HTML & CSS - Forms_
+- [x] 2: _Bibliotecas JavaScript e Frameworks CSS_
 - [ ] 3: _Introdução - CSS Flexbox_
 - [ ] 3: _CSS Flexbox - Part 1_
 - [ ] 4: _CSS Flexbox - Part 2_
