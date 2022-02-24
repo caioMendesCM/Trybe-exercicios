@@ -1,7 +1,39 @@
 html {
   box-sizing: border-box;
+  margin: 0 16px;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.asides {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.2em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p {
+    max-width: 95%;
+    text-align: justify; 
+  }
+
+  .asides {
+    flex-flow: column nowrap;
+  }
+}
+
+@media (max-width: 1440px) {
+  .asides {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap: 128px;
+  }
 }
