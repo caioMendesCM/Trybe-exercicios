@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  margin: 0 16px;
+  margin: 0 24px;
 }
 
 *, *:before, *:after {
@@ -30,10 +30,39 @@ html {
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .asides {
     flex-flow: row nowrap;
     justify-content: flex-start;
     gap: 128px;
   }
+
+  p {
+    font-size: 1.15em;
+    max-width: 85%;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+
+  * {
+    margin: 0 auto;
+  }
+
+  .asides {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap: 128px;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.15em;
+    max-width: 85%;
+    text-align: justify;
+    }
 }
