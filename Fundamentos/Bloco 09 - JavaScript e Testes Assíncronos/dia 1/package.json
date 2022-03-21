@@ -1,0 +1,14 @@
+{
+  "name": "dia-1",
+  "version": "1.0.0",
+  "description": "exercicios",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Caio Mendes",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
