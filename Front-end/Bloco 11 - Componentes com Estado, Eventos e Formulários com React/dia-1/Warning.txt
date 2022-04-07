@@ -1,0 +1,1 @@
+Exercício do dia localizado em: https://github.com/caioMendesCM/exercise-pokedex-state
